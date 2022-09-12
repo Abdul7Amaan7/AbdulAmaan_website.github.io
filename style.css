@@ -559,3 +559,313 @@ form button:hover{
 .acsvg{
     width: 50px;
 }
+
+@media only screen and (max-width:1080px){
+    .mainnav
+    {   position: absolute;
+        left: 0;
+        margin: auto;
+        margin-top: 4em;
+    }
+
+    #bm{
+
+        width: 450px;
+        height: 300px;
+        padding: 0;
+        padding-top: 1em;
+        margin:auto ;
+        position: absolute;
+        right: 1em;
+        top:10em;
+    }
+
+    .cloud{
+    
+        position: absolute;
+        background: transparent;
+        width: 200px;
+        height:auto;
+        right: 0in;
+        top: 2.3in;
+        animation-name: cloudflow;
+        animation-duration: 80s;
+    }
+    
+    .cloud2{
+        display: inline-block;
+        position: absolute;
+        right: 1.5in;
+        background: transparent;
+        width: 300px;
+        height:auto;
+        margin-top: 3.3in;
+        animation-name: cloudflow2;
+        animation-duration: 25s;
+    }
+
+    @keyframes cloudflow{
+        from{transform: translateX(-600px) }
+        to{ transform: translateX(0) }
+    }
+    
+    @keyframes cloudflow2{
+        from{
+            transform: translateX(-1200px)
+        }
+        to{
+            transform: translateX(0)
+        }
+    }
+    
+    .amaanimg{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        color: #04283D;
+        background: transparent;
+        text-align: left;
+        left: 2.5in;
+        top: 2.2in;
+    
+    }
+    
+    .infamaan{
+        position: absolute;
+        right: 0.7in;
+        text-align: left;
+        font-size: 1em;
+        font-family: poppins;
+        font-weight: 600;
+        color: #04283D;
+        background: transparent;
+        
+    }
+    
+    .headamaan{
+        position: absolute;
+        font-size: 2em;
+        font-family: philosopher;
+        font-weight: 600;
+        color: #04283D;
+        background: transparent;
+        text-align: left;
+        right: 3in;
+        top: 1.6in;
+    }
+    
+.headamaan2{
+    position: absolute;
+    font-size: 2.5em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    right: 1.5in;
+    top: 1.9in;
+}
+
+.inflocation{
+    position: absolute;
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: 0.5in;
+    
+}
+
+.location_head{
+    position: absolute;
+    font-size: 2em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: -1in;
+    top: 8.5in;
+}
+
+.location_head2{
+position: absolute;
+    font-size: 2.5em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: -0.97in;
+    top: 8.75in;
+}
+
+.maharashtra_image{
+    position: absolute;
+    left: 1in;
+    top:13in;
+    width: 300px;
+    height: auto;
+}
+
+#about{
+    background-color: #FF8C32;
+    height: 20in;
+    width: 100%;
+    position: absolute;
+    top: 8.5in;
+}
+
+#work{
+    background-image: url(https://github.com/Abdul7Amaan7/AbdulAmaan_website.github.io/blob/main/Images/moon-1527501.jpg?raw=true);
+    background-size:auto auto;
+    background-repeat: no-repeat;
+    height: 16in;
+    width: 100%;
+    position: absolute;
+    top: 28in;
+}
+
+#contact{
+    background-color: #F6F6F6;
+    height: 12in;
+    width: 100%;
+    position: absolute;
+    top: 45in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work1{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 1in;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.work2{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 4in;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.work3{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 7in;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.work4{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 10in;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.work5{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 13in;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.svg_li {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: #04283D;
+    margin:0 ;
+    text-decoration: none;
+}
+
+
+.svgnav
+{   
+    position: absolute;
+    left: 0in;
+    top: 7.8in;
+    margin: auto;
+}
+
+.svg_li .svglogo{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 0 25px;
+}
+
+.svghover{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left:57px;
+    height:50px ;
+    width:50px ;
+}
+
+.svghover2{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    border-radius: 10px;
+    top: 8px;
+    left:162px;
+    height:37px ;
+    width:50px ;
+}
+
+.svghover3{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right:129px;
+    height:50px ;
+    width:50px ;
+}
+
+.svghover4{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right:25px;
+    height:50px ;
+    width:52px ;
+}
+
+ }
