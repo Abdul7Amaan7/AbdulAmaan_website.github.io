@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Josefin+Sans:wght@300;400&family=Karla:wght@400;700&family=Luxurious+Roman&family=Ms+Madi&family=Outfit:wght@300;400;600;700&family=Pacifico&family=Poppins:wght@200;400;500;600;700;800;900&family=Righteous&family=Sacramento&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Josefin+Sans:wght@300;400&family=Karla:wght@400;700&family=Luxurious+Roman&family=Ms+Madi&family=Outfit:wght@300;400;600;700&family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Righteous&family=Sacramento&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6F6F6;
+    scroll-behavior: smooth;
+}
+
+body, html{
+    background-color: #F6F6F6;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.mainnav
+{   position: absolute;
+    left: 2em;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.nav_li li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    }
+
+.nav_li li a {
+    font-family: Poppins ;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: #04283D;
+    margin:0 2.5em ;
+    text-decoration: none;
+}
+
+.nav_li li a:hover{
+    text-decoration: none;
+    color: #FF8C32;
+}
+
+.navil:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.navil:hover:after {
+	width: 45%;
+	background: #04283D;
+}
+
+#bm{
+
+    width: 850px;
+    height: 700px;
+    padding: 0;
+    padding-top: 1em;
+    margin:auto ;
+    position: absolute;
+    right: 1em;
+    top:10em;
+}
+
+#about{
+    background-color: #FF8C32;
+    height: 15in;
+    width: 100%;
+    position: absolute;
+    top: 8.5in;
+}
+
+.amaanimg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: 2.5in;
+    top: 2.2in;
+
+}
+
+.infamaan{
+    position: absolute;
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    right: 2.9in;
+    top: 2.2in;
+}
+
+.headamaan{
+    position: absolute;
+    font-size: 3em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    right: 6.6in;
+    top: 1.2in;
+}
+
+.headamaan2{
+    position: absolute;
+    font-size: 4em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    right: 3.85in;
+    top: 1.70in;
+}
+
+.inflocation{
+    position: absolute;
+    font-size: 1.5em;
+    font-family: poppins;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: 1.7in;
+    top: 9.2in;
+}
+
+.location_head{
+    position: absolute;
+    font-size: 3em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: 0in;
+    top: 8in;
+}
+
+.location_head2{
+position: absolute;
+    font-size: 4em;
+    font-family: philosopher;
+    font-weight: 600;
+    color: #04283D;
+    background: transparent;
+    text-align: left;
+    left: -0.7in;
+    top: 8.45in;
+}
+
+.maharashtra_image{
+    position: absolute;
+    right: 2.7in;
+    top:8in;
+    width: 500px;
+    height: 500px;
+}
+
+.cloud{
+    
+    position: absolute;
+    background: transparent;
+    width: 367px;
+    height:144px;
+    right: 6.5in;
+    top: 3.8in;
+    animation-name: cloudflow;
+    animation-duration: 35s;
+}
+
+.cloud2{
+    display: inline-block;
+    position: absolute;
+    background: transparent;
+    width: 650px;
+    height:200px;
+    margin-top: 5.70in;
+    margin-left: 9in;
+    animation-name: cloudflow2;
+    animation-duration: 25s;
+}
+
+@keyframes cloudflow{
+    from{transform: translateX(-600px) }
+    to{ transform: translateX(0px) }
+}
+
+@keyframes cloudflow2{
+    from{
+        transform: translateX(-300px)
+    }
+    to{
+        transform: translateX(-100px)
+    }
+}
+
+#work{
+    background-image: url(images/moon-1527501.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height: 9.5in;
+    width: 100%;
+    position: absolute;
+    top: 23.5in;
+}
+
+.workhead{
+    background:transparent ;
+    color: #fde7e7 ;
+    font-family: philosopher;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 0.5em;
+    
+}
+
+.underline{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color:#FF8C32;
+    width:140px;
+    height: 2px;
+}
+
+.work1{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 1.3in;
+    left: 1.8in;
+}
+
+
+.challenge1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: auto;
+    padding: auto;
+    background:transparent;
+    height: 150px;
+    width: 250px;
+}
+
+.work2{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 1.3in;
+    left: 6.3in;
+}
+
+
+.challenge2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: auto;
+    padding: auto;
+    background:transparent;
+    height: 150px;
+    width: 250px;
+}
+
+.work3{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 1.3in;
+    left: 10.8in;
+}
+
+
+.challenge3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: auto;
+    padding: auto;
+    background:transparent;
+    height: 150px;
+    width: 250px;
+}
+
+.work4{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 4.7in;
+    right: 3.9in;
+}
+
+
+.challenge4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: auto;
+    padding: auto;
+    background:transparent;
+    height: 150px;
+    width: 250px;
+}
+
+.work5{
+    box-shadow: 10px 10px 50px#51b8f46f;
+    background:transparent;
+    height: 200px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 4.7in;
+    right: 8.8in;
+}
+
+
+.challenge5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: auto;
+    padding: auto;
+    background:transparent;
+    height: 150px;
+    width: 250px;
+}
+
+.hover-img{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover{
+    background:hsl(178deg 100% 50% / 50%) ;
+    border-radius: 12px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:150px ;
+    width:250px ;
+}
+
+.hover:hover{
+    opacity:1;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+#contact{
+    background-color: #F6F6F6;
+    height: 12in;
+    width: 100%;
+    position: absolute;
+    top: 32in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-right{
+    position: absolute;
+    left:50%;
+    bottom: 0px;
+    transform: translate(-50%,0%);
+    margin: auto;
+    padding: 0%;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 0.8em; 
+}
+
+form{
+    position: absolute;
+    top: 2in;
+    background: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    background: transparent;
+    color:#F6F6F6;
+    font-family: poppins;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    border-radius: 10px;
+    margin:10px 0;
+    padding:20px;
+    outline:none;
+    background:#F6F6F6;
+    font-size: 14px;
+}
+
+form button{
+    padding: 15px;
+    background:#FF8C32;
+    color:#F6F6F6;
+    font-size: 18px;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    border-radius: 10px;
+    width: 35%;
+    height: 50px;
+    max-height: 10%;
+    margin-top: 10px;
+}
+
+form button:hover{
+    background-color:#9affad;
+    color: #04283D;
+}
+
+.svg_li {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: #04283D;
+    margin:0 2.5em ;
+    text-decoration: none;
+}
+
+
+.svgnav
+{   
+    position: absolute;
+    left: 3.6in;
+    top: 8.2in;
+    margin: auto;
+}
+
+.svg_li .svglogo{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.svghover{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left:132px;
+    height:50px ;
+    width:50px ;
+}
+
+.svghover2{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    border-radius: 10px;
+    top: 8px;
+    left:306px;
+    height:37px ;
+    width:50px ;
+}
+
+.svghover3{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right:275px;
+    height:50px ;
+    width:50px ;
+}
+
+.svghover4{
+    background:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right:100px;
+    height:50px ;
+    width:52px ;
+}
+
+.svghover:hover{
+    opacity:1;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.svghover2:hover{
+    opacity:1;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.svghover3:hover{
+    opacity:1;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.svghover4:hover{
+    opacity:1;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.acsvg{
+    width: 50px;
+}
